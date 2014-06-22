@@ -1,4 +1,4 @@
-MFRC522-pi
+MFRC522-Pi
 ==========
 
 Python class for interfacing the MFRC522 RFID module on the Raspberry Pi.
