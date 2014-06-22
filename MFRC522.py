@@ -368,7 +368,7 @@ class MFRC522:
 
   def MFRC522_DumpClassic1K(self, key, uid):
     i = 0
-    while i < 16:
+    while i < 64:
         status = self.MFRC522_Auth(self.PICC_AUTHENT1A, i, key, uid)
         # Check if authenticated
         if status == self.MI_OK:
